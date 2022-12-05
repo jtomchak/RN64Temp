@@ -9,11 +9,12 @@
     "test": "jest",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
     "check:deps": "rnx-align-deps",
-    "fix:deps": "rnx-align-deps --write"
+    "fix:deps": "rnx-align-deps --write",
+    "pod": "pod-install"
   },
   "dependencies": {
-    "react": "17.0.1",
-    "react-native": "^0.64.2"
+    "react": "17.0.2",
+    "react-native": "^0.66.0"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9",
@@ -25,9 +26,10 @@
     "@types/react-test-renderer": "^16.9.2",
     "babel-jest": "^26.6.3",
     "eslint": "^7.14.0",
-    "jest": "^26.5.2",
-    "metro-react-native-babel-preset": "^0.64.0",
-    "react-test-renderer": "17.0.1",
+    "jest": "^26.6.3",
+    "metro-react-native-babel-preset": "^0.66.2",
+    "pod-install": "^0.1.38",
+    "react-test-renderer": "17.0.2",
     "typescript": "^3.8.3"
   },
   "resolutions": {
@@ -48,7 +50,7 @@
     "kitType": "app",
     "alignDeps": {
       "requirements": [
-        "react-native@0.64"
+        "react-native@0.66"
       ],
       "capabilities": [
         "babel-preset-react-native",
